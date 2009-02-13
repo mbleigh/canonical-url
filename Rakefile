@@ -9,6 +9,7 @@ begin
     s.homepage = "http://github.com/mbleigh/canonical-url"
     s.description = "TODO"
     s.authors = ["Michael Bleigh"]
+    s.files = FileList["[A-Z]*", "{lib,rails}/**/*"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
