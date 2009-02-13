@@ -10,7 +10,7 @@ Installation
 
 Canonical URL is available both as a gem and as a standard Rails plugin. To install as a gem, add this to your `environment.rb`:
 
-    config.gem 'mbleigh-canonical-url', :source => 'http://gems.github.com'
+    config.gem 'mbleigh-canonical-url', :lib => 'canonical_url', :source => 'http://gems.github.com'
     
 To install as a traditional plugin:
 
