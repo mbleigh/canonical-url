@@ -30,7 +30,7 @@ The plugin is very simple to use and consists of a controller method and a helpe
       ...
     </html>
     
-This will automatically insert a canonical URL tag into every page of your site, defaulting to the request's current URL (we assume that the current URL is the canonical URL for any page where it is not specified). Then you can set canonical URLs in the controller as follows:
+This will automatically insert a canonical URL tag into every page of your site, defaulting to the request's current URL (it will not output anything when you have not specified a canonical URL through the controller or explicitly through the link tag). Then you can set canonical URLs in the controller as follows:
 
     class BlogController < ApplicationController
       def show
