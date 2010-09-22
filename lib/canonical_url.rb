@@ -1,3 +1,7 @@
+if defined?(::Rails::Railtie)
+  require 'railtie'
+end
+
 module CanonicalURL
   module ControllerExtensions
     def canonical_url(url_for_options = {})

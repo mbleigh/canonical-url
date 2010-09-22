@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-02-13}
   s.description = %q{TODO}
   s.email = %q{michael@intridea.com}
-  s.files = ["LICENSE", "Rakefile", "README.markdown", "VERSION.yml", "lib/canonical_url.rb", "rails/init.rb"]
+  s.files = ["LICENSE", "Rakefile", "README.markdown", "VERSION.yml", "lib/canonical_url.rb", "lib/railtie.rb", "rails/init.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/mbleigh/canonical-url}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

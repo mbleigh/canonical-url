@@ -16,6 +16,10 @@ To install as a traditional plugin:
 
     script/plugin install git://github.com/mbleigh/canonical-url
 
+In Rails 3, add the following line to your `Gemfile`:
+
+    gem "mbleigh-canonical-url", :require => 'canonical_url':
+
 Usage
 -----
 
